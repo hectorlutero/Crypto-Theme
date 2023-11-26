@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-logo {
+    max-width: 100px;
+}
+
+.nav-primary ul {
+    display: flex;
+    gap: 1.2em;
+}

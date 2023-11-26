@@ -1,0 +1,29 @@
+.hidden-el {
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.from-up {
+    transform: translateY(-100%);
+
+}
+
+.from-left {
+    transform: translateX(-100%);
+}
+
+.from-right {
+    transform: translateX(100%);
+}
+
+.from-down {
+    transform: translateY(100%);
+}
+
+.show-el {
+    transform: translateY(0);
+    transform: translateX(0);
+    filter: blur(0px);
+    opacity: 1;
+}
